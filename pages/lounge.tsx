@@ -41,9 +41,13 @@ export default function Lounge() {
   async function getNftsWithLoading() {
     setLoading(true)
     try {
-      const fetchedPackNfts = await packModule.getOwned(address)
+      const [fetchedPackNfts, fetchedBundleNfts] = await Promise.all([
+        packModule.getOwned(address),
+        bundleModule.getOwned(address),
+      ]);
       console.log(fetchedPackNfts)
       setPackNfts(fetchedPackNfts)
+      setBundleNfts(fetchedBundleNfts);
     } finally {
       setLoading(false)
     }
