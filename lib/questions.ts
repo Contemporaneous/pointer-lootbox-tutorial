@@ -7,41 +7,89 @@ export type Question = {
 
 const quizQuestions: Question[] = [
   {
-    questionText: "What do the initials DB in Aston Martin DB11 stand for?",
+    questionText: "What is this?",
     image:
-      "https://images.unsplash.com/photo-1642201855395-1c8b44e6e42b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80",
+      'https://lh3.googleusercontent.com/PnUSplHdOJbXMcGmvnyLSdyGbIgy52jKVo10hzGyoA_a9jyjUrIK-FdHqmI_8AJYOY-dZmtrjnBv-xnFSCDJkhOuAkVsEyM_-ZSTnA=w600',
     answers: [
-      "Trick question: nothing!",
-      "David Brown",
-      "Drive Better",
-      "Diane Blue",
+      "Fire!",
+      "Water",
+      "Grass",
+      "Earth",
+      "Light",
+      "Dark",
+    ],
+    correctAnswerIndex: 0,
+  },
+  {
+    questionText: "What is this?",
+    image:
+      'https://lh3.googleusercontent.com/DyLdoaJz0__95mx0lYYqRZ85v3vYjXH_Kb0N7ErsR-G9gpoJhomDwaMQOsQDFejeRwqfNO6mFLXDsLe14xwH02chAu5XdMWDkH4HFIs=w600',
+    answers: [
+      "Fire!",
+      "Water",
+      "Grass",
+      "Earth",
+      "Light",
+      "Dark",
     ],
     correctAnswerIndex: 1,
   },
   {
-    questionText: "Which car brand is this logo for?",
-    image: "https://www.carlogos.org/logo/Lexus-symbol-640x480.jpg",
-    answers: ["Lamborghini", "Lada", "Lotus", "Lexus"],
-    correctAnswerIndex: 3,
-  },
-  {
-    questionText: "Where in the UK is the MINI plant?",
+    questionText: "What is this?",
     image:
-      "https://images.unsplash.com/photo-1591439346018-9d5df732ab7d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471&q=80",
-    answers: ["Oxford", "Cambridge", "London", "Edinburgh"],
-    correctAnswerIndex: 0,
-  },
-  {
-    questionText:
-      "Which was the first James Bond film to include an Aston Martin?",
-    answers: ["Dr No", "From Russia with Love", "Goldfinger", "Thunderball"],
+      'https://lh3.googleusercontent.com/o1ovSF9zp6gihgGUa3rcYiQEZMZLbDIJ0spZYxfHiokAixqW401-bTM22CfkStqfJF9syDZqRH1k-6WUugC99a_h5FgtoRjoYNSZXw=w600',
+    answers: [
+      "Fire!",
+      "Water",
+      "Grass",
+      "Earth",
+      "Light",
+      "Dark",
+    ],
     correctAnswerIndex: 2,
   },
   {
-    questionText: "What color were all Ferraris originally?",
-    answers: ["Yellow", "White", "Blue", "Red"],
+    questionText: "What is this?",
+    image:
+      'https://lh3.googleusercontent.com/iANEEykOeBkwzmvVa5QzDqf7MbahjwwQvk3gDJKZWW3ZspC0RcqAOJjxHspdTTJ1fd4sEMkLGJhju75TjKdecsjjma4iYhdlto1WhTM=w600',
+    answers: [
+      "Fire!",
+      "Water",
+      "Grass",
+      "Earth",
+      "Light",
+      "Dark",
+    ],
     correctAnswerIndex: 3,
   },
+  {
+    questionText: "What is this?",
+    image:
+      'https://lh3.googleusercontent.com/WXP-ItAKDPyJVIDKikdR7zSi3w0hgNYEqqw-Lymus0EOInFIqVPY-5dFvN8bQGWzKmJ56Q5Moq3eazLzxGeW0xpIK7RfWle_OLPl_g=w600',
+    answers: [
+      "Fire!",
+      "Water",
+      "Grass",
+      "Earth",
+      "Light",
+      "Dark",
+    ],
+    correctAnswerIndex: 4,
+  },
+  {
+    questionText: "What is this?",
+    image:
+      "https://lh3.googleusercontent.com/Q-3MXhiC38Y0jFansnc0HjJk04Mq3RU72FAWyOKxJr2vo0RaGBapGlDCpQTcRYG3iQQmrUVgFDRR2ReuHrKam5WOMOX8zNeBgjZYzw=s0",
+    answers: [
+      "Fire!",
+      "Water",
+      "Grass",
+      "Earth",
+      "Light",
+      "Dark",
+    ],
+    correctAnswerIndex: 5,
+  }
 ];
 
 export default quizQuestions;
